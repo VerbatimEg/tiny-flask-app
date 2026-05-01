@@ -29,3 +29,7 @@ jobs:
       - name: Validate app imports
         run: |
           python -c "import app"
+
+      - name: Run tests
+        run: |
+          pytest

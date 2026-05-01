@@ -8,7 +8,10 @@ def home():
 
 @app.route("/health")
 def health():
-    return jsonify({"status": "ok"})
+    return jsonify({
+        "status": "ok",
+        "service": "tiny-flask-app"
+    })
 
 @app.route("/version")
 def version():

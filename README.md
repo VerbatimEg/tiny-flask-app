@@ -1,3 +1,3 @@
 # tiny-flask-app
 
-A minimal Flask app for CI/CD workflow practice.
+A minimal Flask app to quickly demo CI/CD 
